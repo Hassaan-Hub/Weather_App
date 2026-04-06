@@ -14,7 +14,7 @@ function getWeather() {
                 <h2>${data.name}, ${data.sys.country}</h2>
                 <h3>${data.main.temp}°C</h3>
                 <h3>${data.main.humidity}%</h3>
-                <p>${data.weather[0].description}</p>
+                <h4>${data.weather[0].description.toUpperCase()}</h4>
             `
         })
         .catch(function (error) {

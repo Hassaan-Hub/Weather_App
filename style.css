@@ -147,6 +147,8 @@ button:active {
 /* Weather result card */
 #weatherResult {
   width: 100%;
+  text-align: center;
+  margin-top: 20px;
 }
 
 #weatherResult:empty {
