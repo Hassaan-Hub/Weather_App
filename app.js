@@ -2,7 +2,7 @@
     const response = await fetch(`https://api.openweathermap.org/data/2.5/weather?appid=392fc470c1ac8b42b2f40951a9a96cc4&q=karachi&units=metric`);
     const data = await response.json();
     console.log(data);
-    return data;x   
+    return data;
 }
 
 var weadBox = document.getElementById("weatherResult")
